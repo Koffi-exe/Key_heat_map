@@ -72,9 +72,9 @@ const Keyboard = () => {
     };
   }, []);
 
-  useEffect(() => {
-    console.log("Active key:", activeKey);
-  }, [activeKey]);
+  // useEffect(() => {
+  //   console.log("Active key:", activeKey);
+  // }, [activeKey]);
 
   return (
     <div className="p-6 bg-gray-100  font-mono">

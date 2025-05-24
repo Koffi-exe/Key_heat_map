@@ -8,6 +8,12 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 
 const Navbar = () => {
+
+  const handleLogin = ()=>{
+    
+  }
+
+
   return (
      <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
@@ -25,7 +31,7 @@ const Navbar = () => {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Keyboard Heat Map
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button onClick={handleLogin} color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
     </Box>
