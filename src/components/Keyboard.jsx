@@ -55,7 +55,7 @@ const Keyboard = () => {
       if (e.key.toLowerCase() === "capslock") {
         setCaps((prev) => !prev);
       } else {
-        console.log(`pressed${e.key}`)
+        // console.log(`pressed${e.key}`)
         setActiveKey(convertKeyPress(e.key));
       }
     };
